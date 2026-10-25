@@ -1,0 +1,15 @@
+{
+  "name": "dash-and-dandy-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A polished demo website for Dash & Dandy.",
+  "scripts": {
+    "dev": "http-server dist -p 4173 -c-1",
+    "test": "playwright test",
+    "check": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "http-server": "^14.1.1"
+  }
+}
